@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Mark 1",
+    "version": "1.0.0",
+    "description": "this will serve to work for the history mind mapping",
+    "icons": {
+        "128": "icon-mind100.png",
+        "48": "icon-mind48.png",
+        "16": "icon-mind16.png"
+    },
+    "background": {
+        "page": "background1.html",
+        "persistent": true
+    },
+    "omnibox": { "keyword": "rhythm" },
+    "browser_action": {
+        "default_icon": "icon-mind16.png",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "contextMenus",
+        "history",
+        "webNavigation"
+    ],
+    "content_security_policy": "script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+}
