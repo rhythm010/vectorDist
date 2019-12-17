@@ -1,7 +1,7 @@
 // ----------------- START FIREBASE RELATED THINGS -----------------------
 
 // this will create a node in the real time storage and start storing neurons and maps with your username with it
-let username = "fury";
+let username = "abhishek";
 
 var config = {
     apiKey: "AIzaSyBUiMBQonLTuVeQ827RQJcd_Nqz_IgrIXo",
